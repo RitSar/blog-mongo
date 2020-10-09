@@ -2,6 +2,12 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -14,13 +20,7 @@
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
-
-.footer-padding {
-  padding-bottom: 60px;
-}
-
 .footer {
-  position: absolute;
   text-align: center;
   bottom: 0;
   width: 100%;
